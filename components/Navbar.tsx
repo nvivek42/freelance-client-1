@@ -8,11 +8,11 @@ export default function Navbar() {
 
   const menuItems = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Industries', href: '#industries' },
-    { name: 'Contact', href: '#contact' },
-    { name: 'Infrastructure', href: '/Infra' },
+    { name: 'About', href: '/about' },
+    { name: 'Services', href: '/services' },
+    { name: 'Industries', href: '/industries' },
+    { name: 'Contact', href: '/contact' },
+    { name: 'Infrastructure', href: '/infra' },
   ]
 
   return (

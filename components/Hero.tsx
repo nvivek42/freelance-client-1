@@ -21,43 +21,36 @@ export default function Hero() {
           <h1 className="mb-6">
             <span className="block text-[2.75rem] md:text-[3.5rem] lg:text-[4.5rem] 
               font-bold text-white leading-[1.1] mb-4 tracking-tight font-serif">
-              Precision Die Casting
+              Precision Engineering
               <span className="block mt-2 text-primary-400">
-                Excellence
+                for Global Industries
               </span>
             </span>
             <span className="block text-[1.75rem] md:text-[2rem] lg:text-[2.25rem] 
               font-medium text-gray-200 leading-tight font-candara">
-              Engineering the Future of Manufacturing
+              Transforming Complex Manufacturing Challenges into Innovative Solutions
             </span>
           </h1>
-          
-          <p className="text-[1.125rem] md:text-[1.25rem] lg:text-[1.375rem] 
-            text-gray-300 mt-8 mb-12 max-w-2xl font-light leading-relaxed">
-            Delivering world-class die casting solutions with unmatched precision, 
-            quality, and innovation for industries worldwide.
-          </p>
 
-          <div className="flex gap-6">
-            <a
-              href="/contact"
-              className="inline-block bg-primary-500 text-white px-8 py-4 
-                text-lg font-medium rounded-md hover:bg-primary-600 
-                transition-all duration-300 hover:scale-105"
+          {/* CTA Buttons */}
+          <div className="mt-10 flex space-x-6">
+            <a 
+              href="/services" 
+              className="px-8 py-3 bg-primary-500 text-white font-bold rounded-full 
+              hover:bg-primary-600 transition-colors duration-300 text-lg"
             >
-              Get Started
+              Explore Services
             </a>
-            <a
-              href="/capabilities"
-              className="inline-block border-2 border-white text-white px-8 py-4 
-                text-lg font-medium rounded-md hover:bg-white/10
-                transition-all duration-300"
+            <a 
+              href="/contact" 
+              className="px-8 py-3 border-2 border-white text-white font-bold rounded-full 
+              hover:bg-white hover:text-black transition-colors duration-300 text-lg"
             >
-              Our Capabilities
+              Contact Us
             </a>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
